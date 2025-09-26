@@ -4,11 +4,12 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { FuncApp } from './FuncApp';
+import LifecycyleDemo from './LifeCycle';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <FuncApp />
+    <LifecycyleDemo />
   </React.StrictMode>
 );
 
