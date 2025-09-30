@@ -1,3 +1,5 @@
 npx create-react-app my-app --template typescript
 
 npm install react-router-dom
+
+npm install axios
