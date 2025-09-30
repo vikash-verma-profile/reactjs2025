@@ -5,13 +5,14 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Parent from './Parent';
 import UserList from './Consumer';
+import AddUser from './ConsumerPost';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
   <React.StrictMode>
-    <UserList />
+    <AddUser />
   </React.StrictMode>
 );
 
